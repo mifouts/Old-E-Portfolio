@@ -44,3 +44,14 @@ nav{
     color: #242424;
     font-weight: 600;
 }
+
+.nav__link--anchor--primary{
+    background-color: #6030b1;
+    padding: 8px 20px;
+    color: white;
+    border-radius: 50px;
+}
+
+.nav__link--anchor--primary:hover{
+    background-color: #5d3eff;
+}
