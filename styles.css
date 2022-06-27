@@ -127,3 +127,10 @@ nav{
 .about-me__info--title{
 margin-bottom: 16px;
 }
+
+.about-me__link{
+    font-size: 20px;
+    color: #242424;
+    text-decoration: none;
+    padding: 0 16px;
+}
