@@ -33,10 +33,22 @@ li{
     flex: 1;
 }
 
+.container{
+    padding: 50px 0;
+}
+
 .row{
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
+}
+
+section:nth-child(even){
+    background-color: #f8f8f8;
+}
+
+.section__title {
+    margin-bottom: 20px;
 }
 
 /* NAV BAR */
