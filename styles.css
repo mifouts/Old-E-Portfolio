@@ -206,3 +206,7 @@ margin-bottom: 16px;
 .language:hover .language__name{
     transform: scale(1);
 }
+
+.project__img{
+    width: 100%;
+}
