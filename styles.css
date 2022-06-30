@@ -211,6 +211,15 @@ margin-bottom: 16px;
     transform: scale(1);
 }
 
+/* PROJECTS */
+
+.project{
+    margin: 135px;
+}
+
+.project:last-child{
+    margin-bottom: 40px;
+}
 .project__img{
     width: 100%;
     transition: all 500ms ease;
