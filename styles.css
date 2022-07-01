@@ -254,7 +254,7 @@ margin-bottom: 16px;
 /* PROJECTS */
 
 .project{
-    margin: 135px;
+    margin-bottom: 135px;
 }
 
 .project:last-child{
@@ -298,7 +298,7 @@ margin-bottom: 16px;
 }
 
 .project__list{
-    padding-top: 40px 0;
+    padding-top: 40px;
 }
 
 .project__description{
