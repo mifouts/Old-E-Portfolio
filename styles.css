@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 h1, h2, h3, h4, h5, h6, span{
     color: #242424;
     text-align: center;
@@ -19,6 +23,16 @@ h1{
 p{
     line-height: 1.5;
     font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    position: relative;
+    transition: opacity 300ms ease;
+}
+
+i:hover{
+    opacity: .7;
 }
 
 li{
@@ -61,6 +75,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 12px;
 }
 
 .nav__link--list{
@@ -103,6 +118,7 @@ nav{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .about-me__info {
@@ -113,9 +129,8 @@ nav{
 .about-me__info--container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    max-width: 500px;
+    max-width: 600px;
     margin: 0 auto;
     text-align: center;
 }
